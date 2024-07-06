@@ -11,6 +11,6 @@ public struct DynamicView: View {
 
 @objc public class DynamicViewLoader: NSObject {
     @objc public static func createDynamicView() -> AnyObject {
-        return UIHostingController(rootView: DynamicView())
+        return DynamicView() as AnyObject
     }
 }
