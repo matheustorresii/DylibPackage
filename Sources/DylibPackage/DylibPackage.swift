@@ -4,7 +4,7 @@ public struct DynamicView: View {
     public init() { }
     
     public var body: some View {
-        Text("ATUALIZOU ESSA DISGRAÇA")
+        Text("ATUALIZOU ESSA DISGRAÇA 3")
             .padding()
     }
 }
