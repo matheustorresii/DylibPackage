@@ -14,3 +14,8 @@ public struct DynamicView: View {
         return DynamicView() as AnyObject
     }
 }
+
+@_cdecl("createDynamicView")
+public func createDynamicView() -> AnyObject {
+    return DynamicViewLoader.createDynamicView()
+}
