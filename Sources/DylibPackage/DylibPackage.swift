@@ -4,8 +4,14 @@ public struct DynamicView: View {
     public init() { }
     
     public var body: some View {
-        Text("DEU CERTO ESSA BOMBA ATUALIZANDO")
-            .padding()
+        VStack {
+            Text("TESTE MEMO TA LIGADO")
+                .padding()
+
+            Button("BUTÃO") {
+                print("BUTÃO")
+            }
+        }
     }
 }
 
