@@ -5,7 +5,7 @@ public struct DynamicView: View {
     
     public var body: some View {
         VStack {
-            Text("TESTE MEMO TA LIGADO")
+            Text("HELLO FROM TESTFLIGHT")
                 .padding()
 
             Button("BUTÃO") {
