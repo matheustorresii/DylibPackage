@@ -5,8 +5,12 @@ public struct DynamicView: View {
     
     public var body: some View {
         VStack {
-            Text("JÃO CABULOSO")
+            Text("TESTFLIGHT CARAIOOOO")
                 .padding()
+
+            Button("BUTÃO") {
+                print("BUTÃO")
+            }
         }
     }
 }
